@@ -273,7 +273,31 @@ body {
   margin: 0 auto 30px;
   color: #d3d3d3;
 }
+/* ================= PROJECT CARD ACTIONS ================= */
+.project-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+}
 
+.view-images {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #b40421;
+  border: 1px solid #b40421;
+  padding: 6px 14px;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.view-images:hover {
+  background-color: #b40421;
+  color: #ffffff;
+}
 /* ================= CONTACT FORM ================= */
 .contact-form {
   max-width: 600px;
@@ -426,3 +450,4 @@ body {
 
 
 }
+
