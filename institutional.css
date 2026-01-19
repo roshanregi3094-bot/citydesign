@@ -54,7 +54,7 @@ body {
 .btn-primary {
   background-color: #b40421;
   color: #f5f5f5;
-  padding: 12px 28px;
+  padding: 8px 18px;
   border-radius: 30px;
   text-decoration: none;
   font-weight: 500;
@@ -212,5 +212,6 @@ body {
     padding: 70px 6%;
   }
 }
+
 
 
