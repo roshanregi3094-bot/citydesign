@@ -245,7 +245,7 @@ body {
 /* STATUS TAG */
 .project-tag {
   display: inline-block;
-  padding: 6px 14px;
+  padding: 4px 12px;
   font-size: 12px;
   border-radius: 20px;
   background-color: #33ee5c;
@@ -453,4 +453,5 @@ body {
 
 
 }
+
 
