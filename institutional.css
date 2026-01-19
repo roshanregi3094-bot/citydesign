@@ -200,6 +200,10 @@ body {
 
 /* ================= RESPONSIVE ================= */
 @media (max-width: 900px) {
+  .hero-bg {
+    padding: 0 6%;
+    text-align: center;
+  }
   .hero-content h1 {
     font-size: 32px;
   }
@@ -212,6 +216,7 @@ body {
     padding: 70px 6%;
   }
 }
+
 
 
 
