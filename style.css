@@ -248,12 +248,13 @@ body {
   padding: 6px 14px;
   font-size: 12px;
   border-radius: 20px;
-  background-color: #b40421;
+  background-color: #33ee5c;
   color: #ffffff;
 }
 
 .project-tag.ongoing {
-  background-color: #ef233c;
+  background-color: #f8bc9a;
+  color:#c85d05; 
 }
 
 /* ================= PROJECTS CTA ================= */
@@ -273,6 +274,7 @@ body {
   margin: 0 auto 30px;
   color: #d3d3d3;
 }
+
 /* ================= PROJECT CARD ACTIONS ================= */
 .project-actions {
   display: flex;
@@ -289,7 +291,7 @@ body {
   text-decoration: none;
   color: #b40421;
   border: 1px solid #b40421;
-  padding: 6px 14px;
+  padding: 4px 12px;
   border-radius: 20px;
   transition: all 0.3s ease;
 }
@@ -298,6 +300,7 @@ body {
   background-color: #b40421;
   color: #ffffff;
 }
+
 /* ================= CONTACT FORM ================= */
 .contact-form {
   max-width: 600px;
