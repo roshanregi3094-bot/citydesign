@@ -199,8 +199,10 @@ body {
 }
 
 /* ================= RESPONSIVE ================= */
-@media (max-width: 900px) {
- 
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 32px;
+  }
 
   .project-gallery img {
     height: 220px;
@@ -209,6 +211,45 @@ body {
   .project-details {
     padding: 70px 6%;
   }
+
+  /* ================= MOBILE NAV FIX ================= */
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .navbar img {
+    width: 160px !important;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    padding-top: 10px;
+  }
+
+  .nav-links li {
+    width: 100%;
+  }
+
+  .nav-links a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 15px;
+  }
+
+  .btn-primary {
+    align-self: flex-start;
+    margin-top: 10px;
+  }
+}
+
 }
 
 
