@@ -291,7 +291,7 @@ body {
   text-decoration: none;
   color: #b40421;
   border: 1px solid #b40421;
-  padding: 4px 12px;
+  padding: 2px 10px;
   border-radius: 20px;
   transition: all 0.3s ease;
 }
@@ -453,5 +453,6 @@ body {
 
 
 }
+
 
 
